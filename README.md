@@ -11,10 +11,13 @@ Training GAN model is a tedious task, it needs a lot of hyper-tuning in order to
 These configuration is inspired from https://towardsdatascience.com/generate-anime-style-face-using-dcgan-and-explore-its-latent-feature-representation-ae0e905f3974, https://jonathan-hui.medium.com/gan-dcgan-deep-convolutional-generative-adversarial-networks-df855c438f
 
 Images from data:
+
 ![download (1)](https://user-images.githubusercontent.com/50269219/163562232-19a8f5ff-340d-4bbf-96df-13861dfb17dd.png)
 
 
 
 Images from GAN model:
+
 ![download](https://user-images.githubusercontent.com/50269219/163562247-e99fc367-efc2-4737-a30d-f9f04f6ca91f.png)
+
 ![demo_result](https://user-images.githubusercontent.com/50269219/163562256-44a149bd-9c41-458f-ae59-820b61453e6d.jpg)
