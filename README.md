@@ -8,7 +8,8 @@ I started this project by using DCGAN model, or traditional GAN model
 Training GAN model is a tedious task, it needs a lot of hyper-tuning in order to find a good architecture. 
 - My discriminator consists of 4 Conv2D layers with number of filters = [512,256,128,64], kernel_size = (4,4), padding = 'same', and strides = 2. I also used BatchNormalization and LeakyRelu after each Conv2D layer.
 - My generator consists of 4 Conv2DTranspose layers with same configuration as discriminator.
-These configuration is inspired from https://towardsdatascience.com/generate-anime-style-face-using-dcgan-and-explore-its-latent-feature-representation-ae0e905f3974, https://jonathan-hui.medium.com/gan-dcgan-deep-convolutional-generative-adversarial-networks-df855c438f
+
+These configuration is based on training results and https://towardsdatascience.com/generate-anime-style-face-using-dcgan-and-explore-its-latent-feature-representation-ae0e905f3974, https://jonathan-hui.medium.com/gan-dcgan-deep-convolutional-generative-adversarial-networks-df855c438f.
 
 Images from data:
 
