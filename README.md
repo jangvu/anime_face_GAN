@@ -17,7 +17,7 @@ Images from data:
 
 
 
-Images from GAN model:
+Images from DCGAN model:
 
 ![download](https://user-images.githubusercontent.com/50269219/163562247-e99fc367-efc2-4737-a30d-f9f04f6ca91f.png)
 
