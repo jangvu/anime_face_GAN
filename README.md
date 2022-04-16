@@ -8,6 +8,7 @@ Images from data:
 ![download (1)](https://user-images.githubusercontent.com/50269219/163562232-19a8f5ff-340d-4bbf-96df-13861dfb17dd.png)
 
 I. DCGAN
+
 I started this project by using DCGAN model, or traditional GAN model
 
 Training GAN model is a tedious task, it needs a lot of hyper-tuning in order to find a good architecture. 
@@ -24,6 +25,7 @@ Images from DCGAN model:
 ![demo_result](https://user-images.githubusercontent.com/50269219/163562256-44a149bd-9c41-458f-ae59-820b61453e6d.jpg)
 
 II. WGAN
+
 WGAN is an extension of DCGAN, it improves training stability of traditional GAN model with the Wasserstein loss. Since cross-entropy loss function in GAN is a measure from the field of information theory, building upon entropy and generally calculating the difference between two probability distributions. Cross-entropy value can range from very small to very large number depending on the similarity between two probability distributions. As a result, it makes the traditional GAN less stable. Instead of using a discriminator to classify or predict the probability of generated images as being real or fake, the WGAN changes or replaces the discriminator model with a critic that scores the realness or fakeness of a given image.
 Resources:
 (https://arxiv.org/pdf/1701.07875.pdf)
