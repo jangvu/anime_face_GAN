@@ -26,7 +26,9 @@ Images from DCGAN model:
 
 II. WGAN
 
-WGAN is an extension of DCGAN, it improves training stability of traditional GAN model with the Wasserstein loss. Since cross-entropy loss function in GAN is a measure from the field of information theory, building upon entropy and generally calculating the difference between two probability distributions. Cross-entropy value can range from very small to very large number depending on the similarity between two probability distributions. As a result, it makes the traditional GAN less stable. Instead of using a discriminator to classify or predict the probability of generated images as being real or fake, the WGAN changes or replaces the discriminator model with a critic that scores the realness or fakeness of a given image.
+WGAN is an extension of DCGAN, it improves training stability of traditional GAN model with the Wasserstein loss. Since cross-entropy loss function in GAN is a measure from the field of information theory, building upon entropy and generally calculating the difference between two probability distributions. Cross-entropy value can range from very small to very large number depending on the similarity between two probability distributions. As a result, it makes the traditional GAN less stable. 
+
+Instead of using a discriminator to classify or predict the probability of generated images as being real or fake, the WGAN changes or replaces the discriminator model with a critic that scores the realness or fakeness of a given image.
 
 Resources:
 
