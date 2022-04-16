@@ -3,7 +3,7 @@ A small computer vision project in order to understand deeper about GAN model an
 
 In this project, I used an anime face dataset from Kaggle(https://www.kaggle.com/datasets/soumikrakshit/anime-faces)
 
-Images from data:
+Images from dataset:
 
 ![download (1)](https://user-images.githubusercontent.com/50269219/163562232-19a8f5ff-340d-4bbf-96df-13861dfb17dd.png)
 
