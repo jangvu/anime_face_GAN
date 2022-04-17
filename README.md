@@ -1,5 +1,5 @@
 # anime_face_GAN
-A small computer vision project developed in order to understand deeper about GAN model and its variants.
+A small computer vision project developed to understand deeper about GAN model and its variants.
 
 In this project, I used an anime face dataset from Kaggle(https://www.kaggle.com/datasets/soumikrakshit/anime-faces)
 
